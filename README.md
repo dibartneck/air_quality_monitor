@@ -42,15 +42,15 @@ Alert level  | CO2 (ppm) |  IAQ
 Before starting the project you should get the following parts from tinkerforge shop:
 Quantity | Part   | Price (in €)
 -------- | ------ | ------------
-1 | CO2 Bricklet 2.0 |
-1 | Air Quality Bricklet |
-1 | LSD Bricklet 128x64 |
-1 | HAT Zero Brick |
-1 | Tabletop Weather Station |
-4 | Bricklet Cable (7p - 7p) |
-1 | Mounting Kit 12 mm |
-2 | Mounting Kit 9 mm |
-1 | Mounting Kit for Raspberry PI |
+1 | CO2 Bricklet 2.0 | 89.99
+1 | Air Quality Bricklet | 29.99
+1 | LSD Bricklet 128x64 | 32.99
+1 | HAT Zero Brick | 14.99
+1 | Tabletop Weather Station | 15.99
+4 | Bricklet Cable (7p - 7p) | 0.79
+1 | Mounting Kit 12 mm | 1.69
+2 | Mounting Kit 9 mm | 1.69
+1 | Mounting Kit for Raspberry PI | 1.99
 
 
 
