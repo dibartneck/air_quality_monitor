@@ -39,7 +39,7 @@ Alert level  | CO2 (ppm) |  IAQ
 
 ## How users can get started with the project
 
-Before starting the project you should get the following parts from tinkerforge shop:
+Before starting the project you should get the following parts from [tinkerforge shop](https://www.tinkerforge.com/en/shop/):
 Quantity | Part   | Price (in €)
 -------: | ------ | ------------:
 1 | CO2 Bricklet 2.0 | 89.99
