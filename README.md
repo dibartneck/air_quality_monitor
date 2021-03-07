@@ -31,8 +31,8 @@ The IAQ index is a measurement for the quality of air. To calculate the IAQ inde
 
 There are 3 alert level avaluable. Preset ist level 3. 
 
-Alert level  | CO2 (ppm) | IAQ
------------- | --------- | ------
+Alert level  | CO2 (ppm) |  IAQ
+------------ | --------- |  --------
  3 | 2000  | 200
  2 | 1500  | 150
  1 | 1000  | 100
