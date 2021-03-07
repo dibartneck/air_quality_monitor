@@ -32,7 +32,7 @@ The IAQ index is a measurement for the quality of air. To calculate the IAQ inde
 There are 3 alert level avaluable. Preset ist level 3. 
 
 Alert level  | CO2 (ppm) |  IAQ
------------- | --------- |  --------
+:----------: | --------- |  --------
  3 | 2000  | 200
  2 | 1500  | 150
  1 | 1000  | 100
@@ -41,7 +41,7 @@ Alert level  | CO2 (ppm) |  IAQ
 
 Before starting the project you should get the following parts from tinkerforge shop:
 Quantity | Part   | Price (in €)
--------- | ------ | ------------
+--------: | ------ | ------------:
 1 | CO2 Bricklet 2.0 | 89.99
 1 | Air Quality Bricklet | 29.99
 1 | LSD Bricklet 128x64 | 32.99
