@@ -17,7 +17,9 @@ A graph is plotted for both sensor outputs (IAQ and CO2):
 
 ## Why the project is useful
 
+The air quality - espaciually inseide classrooms - came into focus in relation wuth aerosol formation causing Cvid 19 infections. Monitoring can provide data to ensure in time room ventilaton. So good air quality can be achived and aerosole formation can be avoided. 
 
+Indoor air quality characteristic is related to CO2-concentration and Air Quality Index. The different quality ranges are illustrated below.
 
 ## How users can get started with the project
 
