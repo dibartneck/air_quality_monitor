@@ -1,5 +1,11 @@
 # Air Qualiy Monitor Project 
+
+
+
+
 ## What the project does
+### Create an indoor air quality monitor station with [tinkeforge.com](tinkerforge.com/doc) bricklets and a raspberry pi
+
 
 ## Why the project is useful
 
