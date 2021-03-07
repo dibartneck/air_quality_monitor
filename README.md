@@ -5,7 +5,7 @@
 
 ## What the project does
 ### Create an indoor air quality monitor station with [tinkerforge.com](https://tinkerforge.com/en/doc/) bricklets and a raspberry pi
-
+![Bild 1](/images/)
 
 ## Why the project is useful
 
