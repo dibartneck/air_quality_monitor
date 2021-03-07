@@ -8,6 +8,7 @@
 ![Image 1](/images/IMG_6932.png)
 
 The station uses an Integrates Air Quality (IAQ) Sensor and a CO2 Sensor to monitor the air quality inside the room. An alert sound is generated, when both sensors detect bad air quality. The alert level can be adjusted via setup.
+
 ![Image 2](/images/IMG_6935.png)
 
 
