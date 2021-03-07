@@ -23,6 +23,8 @@ Indoor air quality characteristic is related to CO2-concentration and Air Qualit
 
 ![Image 5](/images/CO2.png)
 
+![Image 6](/images/IAQ.png)
+
 ## How users can get started with the project
 
 ## Where users can get help with your project
