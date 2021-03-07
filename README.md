@@ -39,6 +39,8 @@ Alert level  | CO2 (ppm) |  IAQ
 
 ## How users can get started with the project
 
+1. Parts and Assembly
+
 Before starting the project you should get the following parts from [tinkerforge shop](https://www.tinkerforge.com/en/shop/):
 Quantity | Part   | Price (in €)
 -------: | ------ | ------------:
@@ -60,6 +62,7 @@ Quantity | Part | Price (in €)
 1 | SD Card 16 GB | 12.99
 1 | USB Power Supply | 6.99
 
+Assembly of the station is in analogy to Tabetop weather station. You should fix the raspberry zero with double-sided adhesive tape. Be careful not damaging the brocklet cables.
 
 ## Where users can get help with your project
 
