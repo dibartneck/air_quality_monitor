@@ -21,6 +21,8 @@ The air quality - espaciually inseide classrooms - came into focus in relation w
 
 Indoor air quality characteristic is related to CO2-concentration and Air Quality Index. The different quality ranges are illustrated below.
 
+![Image 5](/images/CO2.png)
+
 ## How users can get started with the project
 
 ## Where users can get help with your project
