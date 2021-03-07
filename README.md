@@ -27,7 +27,10 @@ The CO2 Bricklet provides the capability to measure CO2 concentration in the air
 
 ![Image 6](/images/IAQ.png)
 
-The IAQ index is a measurement for the quality of air. To calculate the IAQ index the Bricklet detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measurements are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
+The IAQ index is a measurement for the quality of air. To calculate the IAQ index the Bricklet detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measureme nts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
+
+There are 3 alert level avaluable. Preset ist level 3. The alert is triggered 
+> at CO2 level over 2000 ppm and IAQ greater then 200. Lvel to
 
 ## How users can get started with the project
 
