@@ -66,7 +66,7 @@ Assembly of the station is in analogy to Tabetop weather station. You should fix
 
 ### 2. Software and Installation
 
-
+The best way to install the necessary software on Raspberry is to prepare the SD card on a PC or Mac. Use [Raspberry Pi Imager] (https://www.raspberrypi.org/software/)
 
 ## Where users can get help with your project
 
