@@ -23,7 +23,11 @@ Indoor air quality characteristic is related to CO2-concentration and Air Qualit
 
 ![Image 5](/images/CO2.png)
 
+The CO2 Bricklet provides the capability to measure CO2 concentration in the air. The measured CO2 concentration can be read out in ppm.The Bricklet also measures temperature and humidity. These are used internally for compensation and can additionally be read out.
+
 ![Image 6](/images/IAQ.png)
+
+The IAQ index is a measurement for the quality of air. To calculate the IAQ index the Bricklet detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measurements are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
 
 ## How users can get started with the project
 
