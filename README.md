@@ -32,7 +32,7 @@ The IAQ index is a measurement for the quality of air. To calculate the IAQ inde
 There are 3 alert level avaluable. Preset ist level 3. 
 
 Alert level  | CO2 (ppm) |  IAQ
-:----------: | --------- |  --------
+:----------: | --------: |  --------
  3 | 2000  | 200
  2 | 1500  | 150
  1 | 1000  | 100
@@ -52,6 +52,13 @@ Quantity | Part   | Price (in €)
 2 | Mounting Kit 9 mm | 1.69
 1 | Mounting Kit for Raspberry PI | 1.99
 
+Furtherorde you need the following parts for the raspberry:
+Quantity | Part | Price (in €)
+-------: | ---- | -----------:
+1 | Raspberry Pi Zero | 19.99
+1 | USB A to USB micro cable | 3.99
+1 | SD Card 16 GB | 12.99
+1 | USB Power Supply | 6.99
 
 
 ## Where users can get help with your project
