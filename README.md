@@ -25,7 +25,7 @@ The CO2 Bricklet ([SCD30](https://github.com/Tinkerforge/co2-v2-bricklet/raw/mas
 
 ![Image 5](/images/CO2.png)
 
-The IAQ index is a measure for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf() detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measuremnts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
+The IAQ index is a measure for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf) detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measuremnts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
 
 ![Image 6](/images/IAQ.png)
 
