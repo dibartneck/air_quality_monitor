@@ -21,13 +21,13 @@ The air quality - espaciually inseide classrooms - came into focus in relation w
 
 Indoor air quality characteristic is related to CO2-concentration and Air Quality Index. The different quality ranges are illustrated below.
 
+The CO2 Bricklet ([SCD30](https://github.com/Tinkerforge/co2-v2-bricklet/raw/master/datasheets/SCD30.pdf)) provides the CO2 concentration in ppm. The Bricklet also measures temperature and humidity. These values are used for internal compensation and can additionally be read out.
+
 ![Image 5](/images/CO2.png)
 
-The CO2 Bricklet ([SCD30](https://github.com/Tinkerforge/co2-v2-bricklet/raw/master/datasheets/SCD30.pdf)) provides the capability to measure CO2 concentration in the air. The measured CO2 concentration can be read out in ppm.The Bricklet also measures temperature and humidity. These are used internally for compensation and can additionally be read out.
+The IAQ index is a measure for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf() detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measuremnts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
 
 ![Image 6](/images/IAQ.png)
-
-The IAQ index is a measurement for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf() detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measureme nts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
 
 There are 3 alert level avaluable. Preset ist level 3. 
 
