@@ -1,11 +1,11 @@
-# Air Qualiy Monitor Project 
+# Air Quality Monitor Project 
 
 ## What the project does
 
 ### Create an indoor air quality monitor station with [tinkerforge.com](https://tinkerforge.com/en/doc/) bricklets and a raspberry pi zero.
 ![Image 1](/images/IMG_6932.png)
 
-The station uses an [Integrated Air Quality (IAQ) sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Air_Quality.html#air-quality-bricklet) (BME680) and a [CO2 sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/CO2_V2.html) (SCD30) to monitor air quality inside the room. An [alert sound](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Piezo_Speaker_V2.html#piezo-speaker-v2-bricklet) is generated, when both sensors detect bad air quality. The alert level can be adjusted via setup. The porject is based on a modification of the [Tabletop Weather Station](https://www.tinkerforge.com/en/doc/Kits/TabletopWeatherStation/TabletopWeatherStation.html).
+The station uses an [Integrated Air Quality (IAQ) sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Air_Quality.html#air-quality-bricklet) (BME680) and a [CO2 sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/CO2_V2.html) (SCD30) to monitor air quality inside the room. An [alert sound](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Piezo_Speaker_V2.html#piezo-speaker-v2-bricklet) is generated, when both sensors detect bad air quality. The alert level can be adjusted via setup. The project is based on a modification of the [Tabletop Weather Station](https://www.tinkerforge.com/en/doc/Kits/TabletopWeatherStation/TabletopWeatherStation.html).
 
 ![Image 2](/images/IMG_6935.png)
 
@@ -17,7 +17,7 @@ A graph is plotted for both sensor outputs (IAQ and CO2):
 
 ## Why the project is useful
 
-The air quality - espaciually inseide classrooms - came into focus in relation wuth aerosol formation causing Cvid 19 infections. Monitoring can provide data to ensure in time room ventilaton. Good air quality can be achived and aerosole formation can be avoided. 
+The air quality - especially inside classrooms - came into focus in relation with aerosol formation causing Cvid 19 infections. Monitoring can provide data to ensure in time room ventilation. Good air quality can be achieved and aerosol formation can be avoided. 
 
 Indoor air quality characteristic is related to CO2-concentration and Air Quality Index. The different quality ranges are illustrated below.
 
@@ -25,11 +25,11 @@ The CO2 Bricklet ([SCD30](https://github.com/Tinkerforge/co2-v2-bricklet/raw/mas
 
 ![Image 5](/images/CO2.png)
 
-The IAQ index is a measure for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf) detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measuremnts are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
+The IAQ index is a measure for the quality of air. To calculate the IAQ index the Bricklet ([BME680](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf) detects ethane, isoprene (2-methylbuta-1,3-diene), ethanol, acetone and carbon monoxide (often called VOC, volatile organic components) by adsorption. These gas measurements are combined with the measurements of air pressure, humidity and temperature to calculate the final IAQ index.
 
 ![Image 6](/images/IAQ.png)
 
-There are 3 alert level avaluable via setup. Preset ist level 3. 
+There are 3 alert level available via setup. Preset is level 3. 
 
 Alert level  | CO2 (ppm) |  IAQ
 :----------: | --------: |  --------
@@ -54,7 +54,7 @@ Quantity | Part   | Price (in €)
 2 | Mounting Kit 9 mm | 1.69
 1 | Mounting Kit for Raspberry PI Zero| 1.99
 
-Furtherorde you need the following parts for the raspberry. A raspberry zero wm is recomanded because it fits into the tabletop station enclousure:
+Further you need the following parts for the raspberry. A raspberry zero wm is recommended because it fits into the tabletop station enclosure:
 Quantity | Part | Price (in €)
 -------: | ---- | -----------:
 1 | Raspberry Pi Zero WM| 19.99
@@ -62,17 +62,18 @@ Quantity | Part | Price (in €)
 1 | SD Card 16 GB | 12.99
 1 | USB Power Supply | 6.99
 
-Assembly of the station is in analogy to the Tabetop weather station. You should fix the raspberry zero with double-sided adhesive tape. Be careful not damaging the brocklet cables.
+Assembly of the station is in analogy to the Tabletop weather station. You should fix the raspberry zero with double-sided adhesive tape. Be careful not damaging the bricklet cables.
 
 ### 2. Software and Installation
 
-The best way to install the necessary software on Raspberry is to prepare the SD card on a PC or Mac. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/). Then prepare the image for [headless operation](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) of the raspberry (ssh and vnc). It is recomanded to set up also your Wifi preferences, the pi zero has no ethernet port.
+The best way to install the necessary software on Raspberry is to prepare the SD card on a PC or Mac. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/). Then prepare the image for [headless operation](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) of the raspberry (ssh and vnc). It is recommended to set up also your Wifi preferences, the pi zero has no ethernet port.
 
-When you have got remote access to your raspberry, install the Python [IDLE](https://projects.raspberrypi.org/en/projects/generic-python-install-python3#linux) next. You further have to set up the tinkerforge [Brick Deamon](https://www.tinkerforge.com/en/doc/Software/Brickd.html#brickd) and [Brick Viewer](https://www.tinkerforge.com/en/doc/Software/Brickv.html#brickv). You can now test the HAT connection and the Bricklet functionallity. Write down the UID's of the HAT Brick and all Bricklets. You have to enter hte UID's in he Python Code before running the programm.
+When you have got remote access to your raspberry, install the Python [IDLE](https://projects.raspberrypi.org/en/projects/generic-python-install-python3#linux) next. You further have to set up the tinkerforge [Brick Deamon](https://www.tinkerforge.com/en/doc/Software/Brickd.html#brickd) and [Brick Viewer](https://www.tinkerforge.com/en/doc/Software/Brickv.html#brickv). You can now test the HAT connection and the Bricklet functionality. Write down the UID's of the HAT Brick and all Bricklets. You have to enter the UID's in he Python Code before running the program.
 
-Befire you can run the application you have copied from this site please install the [API for Python](https://www.tinkerforge.com/en/doc/Software/API_Bindings_Python.html#api-bindings-python).
+Before you can run the application you have copied from this site please install the [API for Python](https://www.tinkerforge.com/en/doc/Software/API_Bindings_Python.html#api-bindings-python).
 
-To autostart the python program after rebooting you can add a line in crontab. So you dan't have to start the Python code remotely over VNC.
+To autostart the python program after rebooting you can add a line in crontab. So you don't have to start the Python code remotely over VNC.
+
 
 ## Where users can get help with your project
 
@@ -80,4 +81,4 @@ I'm happy to help if there are any questions.
 
 ## Who maintains and contributes to the project
 
-It would be great to see how others use the project. So please contirbute!
+It would be great to see how others use the project. So please contribute!
