@@ -29,7 +29,7 @@ The IAQ index is a measure for the quality of air. To calculate the IAQ index th
 
 ![Image 6](/images/IAQ.png)
 
-There are 3 alert level avaluable. Preset ist level 3. 
+There are 3 alert level avaluable via setup. Preset ist level 3. 
 
 Alert level  | CO2 (ppm) |  IAQ
 :----------: | --------: |  --------
@@ -46,23 +46,23 @@ Quantity | Part   | Price (in €)
 -------: | ------ | ------------:
 1 | CO2 Bricklet 2.0 | 89.99
 1 | Air Quality Bricklet | 29.99
-1 | LSD Bricklet 128x64 | 32.99
+1 | LCD Bricklet 128x64 | 32.99
 1 | HAT Zero Brick | 14.99
 1 | Tabletop Weather Station | 15.99
 4 | Bricklet Cable (7p - 7p) | 0.79
 1 | Mounting Kit 12 mm | 1.69
 2 | Mounting Kit 9 mm | 1.69
-1 | Mounting Kit for Raspberry PI | 1.99
+1 | Mounting Kit for Raspberry PI Zero| 1.99
 
-Furtherorde you need the following parts for the raspberry:
+Furtherorde you need the following parts for the raspberry. A raspberry zero wm is recomanded because it fits into the tabletop station enclousure:
 Quantity | Part | Price (in €)
 -------: | ---- | -----------:
-1 | Raspberry Pi Zero | 19.99
+1 | Raspberry Pi Zero WM| 19.99
 1 | USB A to USB micro cable | 3.99
 1 | SD Card 16 GB | 12.99
 1 | USB Power Supply | 6.99
 
-Assembly of the station is in analogy to Tabetop weather station. You should fix the raspberry zero with double-sided adhesive tape. Be careful not damaging the brocklet cables.
+Assembly of the station is in analogy to the Tabetop weather station. You should fix the raspberry zero with double-sided adhesive tape. Be careful not damaging the brocklet cables.
 
 ### 2. Software and Installation
 
