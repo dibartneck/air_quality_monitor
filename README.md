@@ -66,9 +66,9 @@ Assembly of the station is in analogy to the Tabetop weather station. You should
 
 ### 2. Software and Installation
 
-The best way to install the necessary software on Raspberry is to prepare the SD card on a PC or Mac. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/). Then prepare the image for headless operation of the raspberry (ssh and vnc). It is recomanded to set up also your Wifi preferences.
+The best way to install the necessary software on Raspberry is to prepare the SD card on a PC or Mac. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/). Then prepare the image for [headless operation](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) of the raspberry (ssh and vnc). It is recomanded to set up also your Wifi preferences, the pi zero has no ethernet port.
 
-When you have remote access to your raspberry, install the Python IDLE next. You further have to install the tinkerforge Brick Deamon and Brick Viewer. You can now test the HAT connection and the Bricklet functionallity. Write down the UID's of the HAT Brick and all Bricklets. You have to enter hte UID's in he Python Code before running the programm.
+When you have got remote access to your raspberry, install the Python IDLE next. You further have to install the tinkerforge Brick Deamon and Brick Viewer. You can now test the HAT connection and the Bricklet functionallity. Write down the UID's of the HAT Brick and all Bricklets. You have to enter hte UID's in he Python Code before running the programm.
 
 Befire you can run the application you have copied from this site please install the API for Python from the tinkerforge website.
 
