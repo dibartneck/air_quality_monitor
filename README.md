@@ -13,7 +13,7 @@ A graph is plotted for both sensor outputs (IAQ and CO2):
 
 ![Image 3](/images/IMG_6941.png)
 
-![Image 3](/images/IMG_6942.png)
+![Image 4](/images/IMG_6942.png)
 
 ## Why the project is useful
 
@@ -36,6 +36,8 @@ Alert level  | CO2 (ppm) |  IAQ
  3 | 2000  | 200
  2 | 1500  | 150
  1 | 1000  | 100
+
+![Image 7](/images/IMG_6943.png)
 
 ## How users can get started with the project
 
