@@ -37,7 +37,7 @@ Alert level  | CO2 (ppm) |  IAQ
  2 | 1500  | 150
  1 | 1000  | 100
 
-![Image 7](/images/IMG_6943.png)
+![Image 7](/images/IMG_6944.png)
 
 ## How users can get started with the project
 
