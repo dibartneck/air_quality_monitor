@@ -95,8 +95,6 @@ def cb_gui_tab_selected(index):
   lcd.remove_gui_slider(1)
   lcd.remove_gui_graph(0)
   lcd.clear_display()
-  co2.set_all_values_callback_configuration(dt, False)
-  aq.set_all_values_callback_configuration(dt, False)
   if index == 0:
     tab = 0
   elif index == 1:
