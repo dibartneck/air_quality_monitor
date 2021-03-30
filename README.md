@@ -39,6 +39,10 @@ Alert level  | CO2 (ppm) |  IAQ
 
 ![Image 7](/images/IMG_6944.png)
 
+Here you find the plot of data recorded during one day in the living room. You can easily se the moment when ventilation was initiated.
+
+![Image 8](/images/data.png)
+
 ## How users can get started with the project
 
 ### 1. Parts and Assembly
