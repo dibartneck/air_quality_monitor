@@ -7,7 +7,7 @@
 
 The station uses an [Integrated Air Quality (IAQ) sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Air_Quality.html#air-quality-bricklet) (BME680) and a [CO2 sensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/CO2_V2.html) (SCD30) to monitor air quality inside the room. An [alert sound](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Piezo_Speaker_V2.html#piezo-speaker-v2-bricklet) is generated, when both sensors detect bad air quality. The alert level can be adjusted via setup. The project is based on a modification of the [Tabletop Weather Station](https://www.tinkerforge.com/en/doc/Kits/TabletopWeatherStation/TabletopWeatherStation.html).
 
-![Image 2](/images/IMG_6940.png) <width="70" height="70">
+![Image 2](/images/IMG_6940.png) <width="70%" height="70">
 
 
 A graph is plotted for both sensor outputs (IAQ and CO2):
