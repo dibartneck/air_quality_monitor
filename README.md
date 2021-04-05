@@ -18,7 +18,7 @@ A graph is plotted for both sensor outputs (IAQ and CO2):
 
 ## Why the project is useful
 
-The air quality - especially inside classrooms - came into focus in relation with aerosol formation causing Cvid 19 infections. Monitoring can provide data to ensure in time room ventilation. Good air quality can be achieved and aerosol formation can be avoided. 
+The air quality - especially inside classrooms - came into focus in relation with aerosol formation causing Covid 19 infections. Monitoring can provide data to ensure in time room ventilation. Good air quality can be achieved and aerosol formation can be avoided. 
 
 Indoor air quality characteristic is related to CO2-concentration and Air Quality Index. The different quality ranges are illustrated below.
 
@@ -40,7 +40,7 @@ Alert level  | CO2 (ppm) |  IAQ
 
 ![Image 7](/images/IMG_6944.png)
 
-Here you find the plot of data recorded during one day in the living room. You can easily se the moment when ventilation was initiated.
+Here you find the plot of data recorded during one day inside the living room. You can easily recognize the moment when ventilation was initiated.
 
 ![Image 8](/images/data.png)
 
@@ -79,7 +79,7 @@ When you have got remote access to your raspberry, install the Python [IDLE](htt
 
 Before you can run the application you have copied from this site please install the [API for Python](https://www.tinkerforge.com/en/doc/Software/API_Bindings_Python.html#api-bindings-python).
 
-To autostart the python program after rebooting you can add a line in crontab. So you don't have to start the Python code remotely over VNC.
+To autostart the python program after rebooting you can add a line in crontab. So, you don't have to start the Python code remotely over VNC.
 
 
 ## Where users can get help with your project
